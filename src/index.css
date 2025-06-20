@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(assets/background-with-simple-white-walls-plant.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 18vw;
+}
+
+.clock-container {
+  border: 7px solid rgb(101, 17, 17);
+  display: inline-block;
+  width: 35vw;
+  height: 15vh;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(202, 200, 204);
+  color: rgb(87, 30, 92);
+}
+
+.clock {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-family: Arial,sans-serif;
+  font-size: 60px;
+  
+
+}
